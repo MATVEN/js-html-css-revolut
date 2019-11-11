@@ -3,3 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* header */
+.cookies{
+  height: 10vh;
+  padding: 40px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: grey;
+}
+
+.cookies-info{
+  padding-right: 50px;
+}
+
+.cookies-info span{
+  padding-right: 10px;
+}
+
+.accept-btn{
+  padding: 7px 25px;
+  border-radius: 20px;
+  color: rgb(235, 0, 141);
+  border-style: solid;
+  background: transparent;
+  border-color: rgb(235, 0, 141);
+}
+/* navbar */
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.type-account a{
+  width: 50%;
+  padding: 10px;
+  color: black;
+}
+
+.type-account img{
+  width: 90px;
+  height: 25px;
+}
+
+.option-account{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: lightgrey;
+}
+
+/* dropdown */
+
+.link:hover{
+  color: black;
+}
+
+.link{
+  position: relative;
+}
+
+.dropdown-content{
+  position: absolute;
+  display: none;
+}
