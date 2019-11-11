@@ -14,6 +14,7 @@
   align-items: center;
   font-size: 14px;
   color: grey;
+  background-color: #F3F4F5;
 }
 
 .cookies-info{
@@ -35,9 +36,7 @@
 /* navbar */
 nav{
   width: 100%;
-  display: flex;
-  align-items: center;
-  margin: 30px;
+  margin: 25px;
 }
 
 .type-account a{
@@ -53,10 +52,19 @@ nav{
 
 .option-account{
   width: 50%;
+  margin-right: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: lightgrey;
+}
+
+.app-btn{
+  padding: 10px 24px;
+  border-radius: 25px;
+  color: white;
+  border-style: solid;
+  background: rgb(235, 0, 141);
 }
 
 /* dropdown */
